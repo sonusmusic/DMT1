@@ -50,7 +50,7 @@ def oot : Prop := 1 + 1 = 2
 
 /--
 In the mathematical system familiar to all
-as natural number arithment, this proposition
+as natural number arithmetic, this proposition
 is evidently true. In constructive mathematics
 (including logic) we'll clearly want *1 + 1 = 2*
 to be true, and it is, but is only because there
@@ -62,14 +62,14 @@ of logic we're learning, accepted just because
 it capture the mathematical idea of equality.
 
 The axiom says this: Suppose you have some
-Type, call it α (pronouned alpha). Example:
+Type, call it α (pronounced alpha). Example:
 α = Nat. Furthermore, suppose you have some
 value, (a : α), of this type.
 
 The equality introduction introduction rule
-then stiplulates that there is always a proof
+then stipulates that there is always a proof
 of the proposition, *a = a*. Think about it.
-It just says, in matheamtical language, that
+It just says, in mathematical language, that
 every object of every type is equal to itself.
 
 
@@ -100,7 +100,7 @@ Eq.refl. This inference rule has two arguments:
 any type, α, and any value, (a : α), of that type.
 Applying this rule to such arguments then yields
 a term accepted axiomatically a proof of a = a.
-Note carfully: a single
+Note carefully: a single
 
 
 
